@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useContext } from "react";
+import Card from "./components/UI/Card";
+import Ingredients from "./components/Ingredients/Ingredients";
+import { AuthContext } from "./components/AuthContext";
+import Auth from "./components/Auth";
+import "./App.css";
 
-function App() {
+const App = (props) => {
+  const authContext = useContext(AuthContext);
+  let contents = <Auth />;
+  if (authContext.isLoggedIn) contents = <Ingredients />;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <section className="header-section">
+        <Card>
+          <h2>Add to Shopping List </h2>
+        </Card>
+      </section>
+      {contents}
+    </Fragment>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RinkuVipin/shopping-list/static/css/main.1a50abcd.chunk.css",
+    "main.js": "/RinkuVipin/shopping-list/static/js/main.430ab7ba.chunk.js",
+    "main.js.map": "/RinkuVipin/shopping-list/static/js/main.430ab7ba.chunk.js.map",
+    "runtime-main.js": "/RinkuVipin/shopping-list/static/js/runtime-main.e0143bc2.js",
+    "runtime-main.js.map": "/RinkuVipin/shopping-list/static/js/runtime-main.e0143bc2.js.map",
+    "static/js/2.6d240a5a.chunk.js": "/RinkuVipin/shopping-list/static/js/2.6d240a5a.chunk.js",
+    "static/js/2.6d240a5a.chunk.js.map": "/RinkuVipin/shopping-list/static/js/2.6d240a5a.chunk.js.map",
+    "index.html": "/RinkuVipin/shopping-list/index.html",
+    "precache-manifest.32103a49cb5c21513f514d5a5feb586a.js": "/RinkuVipin/shopping-list/precache-manifest.32103a49cb5c21513f514d5a5feb586a.js",
+    "service-worker.js": "/RinkuVipin/shopping-list/service-worker.js",
+    "static/css/main.1a50abcd.chunk.css.map": "/RinkuVipin/shopping-list/static/css/main.1a50abcd.chunk.css.map",
+    "static/js/2.6d240a5a.chunk.js.LICENSE.txt": "/RinkuVipin/shopping-list/static/js/2.6d240a5a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0143bc2.js",
+    "static/js/2.6d240a5a.chunk.js",
+    "static/css/main.1a50abcd.chunk.css",
+    "static/js/main.430ab7ba.chunk.js"
+  ]
+}
